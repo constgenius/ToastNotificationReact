@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply flex gap-2 items-center justify-center py-2 px-4 font-semibold shadow rounded-lg w-32;
+}
+
+.btn.btn-danger {
+    @apply text-white bg-red-600 shadow-red-400
+}
+
+.btn.btn-success {
+    @apply text-white bg-green-600 shadow-green-400;
+}
+
+.btn.btn-info {
+    @apply text-white bg-blue-600 shadow-blue-400
+}
